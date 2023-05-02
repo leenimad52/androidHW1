@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="264dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="center"
+        android:text="Computer Science"
+        android:textSize="30dp"
+        android:textColor="#00838f"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="259dp"
+        android:layout_height="219dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        app:srcCompat="@drawable/leen"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="132dp"
+        tools:srcCompat="@drawable/leen" />
+
+    <TextView
+        android:layout_width="312dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="your name"
+        android:textColor="#254832"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edtTxt1"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:textColorLink="@color/black"/>
+
+    <TextView
+        android:layout_width="272dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="your hobbies"
+        android:textColor="#254832"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edtTxt2"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:textColorLink="@color/black" />
+
+    <Button
+        android:id="@+id/button"
+        android:onClick="btnOnClick"
+        android:layout_width="191dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Add" />
+
+    <TextView
+
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textColorHint="@color/black"/>
+
+
+    <ScrollView
+        android:layout_width="326dp"
+        android:layout_height="118dp">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_marginLeft="35dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/bio" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
